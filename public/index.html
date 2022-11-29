@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="todo.css"/>
+</head>
+<body>
+    <div id="main">
+        <div id="left">
+            <div id="up">
+                <h3>TASK LIST</h3>
+                <p>Add Tasks to your list by typing to the right and pressing enter. You may then view pending tasks below.</p>
+            </div>
+            <div id="down"></div>
+        </div>
+        <div id="right">
+          <form id="form1" method="post" action="/sendpic" enctype="multipart/form-data" >
+
+     <input type="text" id="in1" name="mytext" placeholder="Add task" required />
+     <input type="file" id="in2" name="profile" required />
+     <input type="submit" id="in3" />
+          </form>
+        </div>
+    </div>
+
+
+    <script src="todo.js"></script>
+</body>
+</html>

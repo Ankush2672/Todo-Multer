@@ -1,0 +1,136 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+h3
+{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-size: 2.5rem;
+}
+p
+{
+    font-size: 120%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#main
+{
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    width: 100wh;
+}
+#left
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+#right
+{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+
+#up
+{
+  height: 25%;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+#down
+{
+    height: 75%;
+    width: 100%;
+    background-color: whitesmoke;
+    overflow:scroll;
+
+}
+#add
+{
+    border: none;
+    height: 94%;
+    width: 98%;
+    font-size: 4rem;
+    padding-top: 5%;
+    padding-left: 2%;
+    resize: none;
+}
+
+li
+{
+    list-style: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-left: 4%;
+    color: #6b6b72;
+    font-weight: bold;
+    width: 75%;
+    overflow: hidden;
+   
+}
+
+#down > div
+{
+    border-bottom: 1px gray solid;
+}
+
+#down input
+{
+    margin-left: 4%;
+    margin-bottom: 2%;
+    height: 15px;
+    width: 15px;
+    border: 3px black solid;
+    background-color: black;
+    cursor: pointer;
+    margin-right: 4%;
+    position: relative;
+    bottom: 5px;
+}   
+
+.line
+{
+    text-decoration: line-through;
+}
+
+#in1,#in2,#in3
+{
+    display: block;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#in1
+{
+  font-size: 3rem;
+  width: 70%;
+  border: 0px;
+  outline: none;
+}
+
+#in3
+{
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+   background-color: black;
+   color: white;
+}
+
+img
+{
+    display: inline;
+    height: 30px;
+    width: 30px;
+}
